@@ -50,7 +50,7 @@ router = component({
     if (params.autocomplete == null) {
       params.autocomplete = {};
     }
-    return dom('#root.container', [renderrichtext(null, "# I am using __markdown__\n\n- One\n- Two\n- Three $$c = \\pm\\sqrt{a^2 + b^2}$$\n\n$$\n\\int_0^\\infty e^{-x^2} dx=\\frac{\\sqrt{\\pi}}{2}\n$$\n")]);
+    return dom('#root.container', [renderrichtext(null, "# Woohoo\n\nI am using __markdown__\n\n- One\n- Two\n- Three $$c = \\pm\\sqrt{a^2 + b^2}$$\n\n$$\n \\frac{1}{\\displaystyle 1+\n   \\frac{1}{\\displaystyle 2+\n   \\frac{1}{\\displaystyle 3+x}}} +\n \\frac{1}{1+\\frac{1}{2+\\frac{1}{3+x}}}\n$$\n")]);
   }
 });
 
@@ -386,6 +386,7 @@ if (typeof document !== 'undefined') {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+
 },{"min-document":2}],8:[function(require,module,exports){
 (function (global){
 'use strict';
@@ -409,6 +410,7 @@ function Individual(key, value) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+
 },{}],9:[function(require,module,exports){
 'use strict';
 
@@ -14774,6 +14776,7 @@ module.exports = function (string, locale) {
 */
 
 }).call(this,require('_process'))
+
 },{"_process":91}],91:[function(require,module,exports){
 // shim for using process in browser
 
@@ -15179,6 +15182,7 @@ module.exports = /([\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u0
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+
 },{"_process":91}],98:[function(require,module,exports){
 function Thunk(fn, args, key, eqArgs) {
     this.fn = fn;
@@ -17777,4 +17781,5 @@ function extend() {
     return target
 }
 
-},{}]},{},[1]);
+},{}]},{},[1])
+//# sourceMappingURL=bundle.js.map

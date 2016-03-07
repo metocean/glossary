@@ -29,14 +29,19 @@ router = component
     params.autocomplete ?= {}
     dom '#root.container', [
       renderrichtext null, """
-      # I am using __markdown__
+      # Woohoo
+
+      I am using __markdown__
 
       - One
       - Two
       - Three $$c = \\pm\\sqrt{a^2 + b^2}$$
 
       $$
-      \\int_0^\\infty e^{-x^2} dx=\\frac{\\sqrt{\\pi}}{2}
+       \\frac{1}{\\displaystyle 1+
+         \\frac{1}{\\displaystyle 2+
+         \\frac{1}{\\displaystyle 3+x}}} +
+       \\frac{1}{1+\\frac{1}{2+\\frac{1}{3+x}}}
       $$
 
       """

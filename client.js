@@ -49,7 +49,7 @@ router = component({
     if (params.autocomplete == null) {
       params.autocomplete = {};
     }
-    return dom('#root.container', [renderrichtext(null, "# I am using __markdown__\n\n- One\n- Two\n- Three $$c = \\pm\\sqrt{a^2 + b^2}$$\n\n$$\n\\int_0^\\infty e^{-x^2} dx=\\frac{\\sqrt{\\pi}}{2}\n$$\n")]);
+    return dom('#root.container', [renderrichtext(null, "# Woohoo\n\nI am using __markdown__\n\n- One\n- Two\n- Three $$c = \\pm\\sqrt{a^2 + b^2}$$\n\n$$\n \\frac{1}{\\displaystyle 1+\n   \\frac{1}{\\displaystyle 2+\n   \\frac{1}{\\displaystyle 3+x}}} +\n \\frac{1}{1+\\frac{1}{2+\\frac{1}{3+x}}}\n$$\n")]);
   }
 });
 
