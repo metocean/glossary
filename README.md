@@ -1,2 +1,2 @@
-# glossary
-Glossary of MetOcean Terms
+# Glossary of MetOcean Terms
+
