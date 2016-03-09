@@ -14,6 +14,14 @@ getfilename = ->
   file = 'index' if file is ''
   file
 
+getfilepath = ->
+  file = getfilename()
+  if file is 'index'
+    file = "README"
+  else
+    file = "glossary/#{file}"
+  "./#{file}.md"
+
 store = store()
   .use 'catalog', (params, cb) ->
     request
@@ -24,7 +32,7 @@ store = store()
         cb null, res.body
   .use 'content', (params, cb) ->
     request
-      .get "./glossary/#{getfilename()}.md"
+      .get getfilepath()
       .end (err, res) ->
         return cb err if err?
         return cb new Error res.text if not res.ok
@@ -61,7 +69,7 @@ router = component
   render: (state, params, hub) ->
     content = parse state.content
     dom '#root.container', [
-      dom 'h4.pull-right', dom 'a', { attributes: href: "https://github.com/metocean/glossary/blob/gh-pages/glossary/#{getfilename()}.md" }, 'Pull requests welcome & encouraged'
+      dom 'h4.pull-right', dom 'a', { attributes: href: "https://github.com/metocean/glossary/blob/gh-pages/#{getfilepath()}" }, 'Pull requests welcome & encouraged'
       dom 'h4', dom 'a', { attributes: href: './' }, dom 'h4', 'MetOcean Glossary'
       dom '.row', [
         dom '.col-xs-3.toc', [
