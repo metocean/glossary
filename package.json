@@ -32,6 +32,7 @@
     "odojs": "4.4.0",
     "odoql": "7.10.0",
     "odoql-exe": "1.6.2",
+    "odoql-store": "0.1.0",
     "superagent": "1.7.2"
   },
   "devDependencies": {

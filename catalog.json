@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Significant wave height",
+    "unit": "hs",
+    "description": "Significant wave height is the average of the top third highest waves",
+    "filename": "significant-wave-height"
+  },
+  {
+    "title": "Spectra",
+    "description": "Spectra is the distribution of wave energy over frequency",
+    "filename": "spectra"
+  }
+]
