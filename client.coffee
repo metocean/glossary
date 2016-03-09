@@ -78,7 +78,7 @@ router = component
             dom "a.list-group-item#{if getfilename() is item.filename then '.active' else ''}", { attributes: href: "?#{item.filename}" }, item.title ? item.filename
         ]
         dom '.col-xs-9.content', [
-          dom 'h6.pull-right', dom 'a', { attributes: href: "https://github.com/metocean/glossary/blob/gh-pages/#{getfilepath()}" }, 'pull requests welcome & encouraged'
+          dom 'h6.pull-right', dom 'a', { attributes: href: "https://github.com/metocean/glossary/edit/gh-pages/#{getfilepath()}" }, 'pull requests welcome & encouraged'
           dom 'h6', 'Definition'
           renderrichtext null, content.text
         ]

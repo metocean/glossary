@@ -131,7 +131,7 @@ router = component({
         ]), dom('.col-xs-9.content', [
           dom('h6.pull-right', dom('a', {
             attributes: {
-              href: "https://github.com/metocean/glossary/blob/gh-pages/" + (getfilepath())
+              href: "https://github.com/metocean/glossary/edit/gh-pages/" + (getfilepath())
             }
           }, 'pull requests welcome & encouraged')), dom('h6', 'Definition'), renderrichtext(null, content.text)
         ])
