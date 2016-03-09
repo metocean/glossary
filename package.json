@@ -4,7 +4,7 @@
   "description": "Glossary of MetOcean terms",
   "main": "index.js",
   "scripts": {
-    "js": "./node_modules/.bin/browserify ./client.js --debug | ./node_modules/.bin/exorcist ./dist/bundle.js.map > ./dist/bundle.js",
+    "js": "./node_modules/.bin/browserify ./client.js | ./node_modules/.bin/uglifyjs - --screw-ie8 -mc -o ./dist/bundle.js",
     "wjs": "./node_modules/.bin/watchify ./client.js -o ./dist/bundle.js",
     "css": "./node_modules/.bin/stylus --include-css style/index.styl -o ./dist/bundle.css",
     "wcss": "./node_modules/.bin/stylus --include-css --watch style/index.styl -o ./dist/bundle.css"
@@ -39,6 +39,7 @@
     "browserify": "13.0.0",
     "exorcist": "0.4.0",
     "stylus": "0.54.0",
+    "uglify-js": "2.6.2",
     "watchify": "3.7.0"
   }
 }
