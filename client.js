@@ -30,7 +30,7 @@ getfilename = function() {
 };
 
 store = store().use('catalog', function(params, cb) {
-  return request.get('/catalog.json').end(function(err, res) {
+  return request.get('./catalog.json').end(function(err, res) {
     if (err != null) {
       return cb(err);
     }
@@ -40,7 +40,7 @@ store = store().use('catalog', function(params, cb) {
     return cb(null, res.body);
   });
 }).use('content', function(params, cb) {
-  return request.get("/glossary/" + (getfilename()) + ".md").end(function(err, res) {
+  return request.get("./glossary/" + (getfilename()) + ".md").end(function(err, res) {
     if (err != null) {
       return cb(err);
     }

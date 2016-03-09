@@ -17,14 +17,14 @@ getfilename = ->
 store = store()
   .use 'catalog', (params, cb) ->
     request
-      .get '/catalog.json'
+      .get './catalog.json'
       .end (err, res) ->
         return cb err if err?
         return cb new Error res.text if not res.ok
         cb null, res.body
   .use 'content', (params, cb) ->
     request
-      .get "/glossary/#{getfilename()}.md"
+      .get "./glossary/#{getfilename()}.md"
       .end (err, res) ->
         return cb err if err?
         return cb new Error res.text if not res.ok

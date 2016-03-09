@@ -31,7 +31,7 @@ getfilename = function() {
 };
 
 store = store().use('catalog', function(params, cb) {
-  return request.get('/catalog.json').end(function(err, res) {
+  return request.get('./catalog.json').end(function(err, res) {
     if (err != null) {
       return cb(err);
     }
@@ -41,7 +41,7 @@ store = store().use('catalog', function(params, cb) {
     return cb(null, res.body);
   });
 }).use('content', function(params, cb) {
-  return request.get("/glossary/" + (getfilename()) + ".md").end(function(err, res) {
+  return request.get("./glossary/" + (getfilename()) + ".md").end(function(err, res) {
     if (err != null) {
       return cb(err);
     }
@@ -614,6 +614,7 @@ if (typeof document !== 'undefined') {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+
 },{"min-document":2}],9:[function(require,module,exports){
 (function (global){
 'use strict';
@@ -637,6 +638,7 @@ function Individual(key, value) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+
 },{}],10:[function(require,module,exports){
 'use strict';
 
@@ -15448,6 +15450,7 @@ module.exports = function (string, locale) {
 */
 
 }).call(this,require('_process'))
+
 },{"_process":95}],95:[function(require,module,exports){
 // shim for using process in browser
 
@@ -15878,6 +15881,7 @@ module.exports = /([\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u0
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+
 },{"_process":95}],103:[function(require,module,exports){
 /**
  * Module dependencies.
@@ -19713,4 +19717,5 @@ module.exports = function(s) {
   };
 };
 
-},{}]},{},[1]);
+},{}]},{},[1])
+//# sourceMappingURL=bundle.js.map
