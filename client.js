@@ -112,13 +112,13 @@ router = component({
     return dom('#root.container', [
       dom('h4.pull-right', dom('a', {
         attributes: {
-          href: "https://github.com/metocean/glossary/blob/gh-pages/" + (getfilepath())
+          href: 'https://github.com/metocean/glossary'
         }
-      }, 'Pull requests welcome & encouraged')), dom('h4', dom('a', {
+      }, 'GitHub')), dom('h4', dom('a', {
         attributes: {
           href: './'
         }
-      }, dom('h4', 'MetOcean Glossary'))), dom('.row', [
+      }, 'MetOcean Glossary')), dom('.row', [
         dom('.col-xs-3.toc', [
           dom('h6', 'Table of contents'), dom('.list-group', state.catalog.map(function(item) {
             var ref1;
@@ -128,7 +128,13 @@ router = component({
               }
             }, (ref1 = item.title) != null ? ref1 : item.filename);
           }))
-        ]), dom('.col-xs-9.content', [dom('h6', 'Definition'), renderrichtext(null, content.text)])
+        ]), dom('.col-xs-9.content', [
+          dom('h6.pull-right', dom('a', {
+            attributes: {
+              href: "https://github.com/metocean/glossary/blob/gh-pages/" + (getfilepath())
+            }
+          }, 'pull requests welcome & encouraged')), dom('h6', 'Definition'), renderrichtext(null, content.text)
+        ])
       ])
     ]);
   }

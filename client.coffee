@@ -69,8 +69,8 @@ router = component
   render: (state, params, hub) ->
     content = parse state.content
     dom '#root.container', [
-      dom 'h4.pull-right', dom 'a', { attributes: href: "https://github.com/metocean/glossary/blob/gh-pages/#{getfilepath()}" }, 'Pull requests welcome & encouraged'
-      dom 'h4', dom 'a', { attributes: href: './' }, dom 'h4', 'MetOcean Glossary'
+      dom 'h4.pull-right', dom 'a', { attributes: href: 'https://github.com/metocean/glossary' }, 'GitHub'
+      dom 'h4', dom 'a', { attributes: href: './' }, 'MetOcean Glossary'
       dom '.row', [
         dom '.col-xs-3.toc', [
           dom 'h6', 'Table of contents'
@@ -78,6 +78,7 @@ router = component
             dom "a.list-group-item#{if getfilename() is item.filename then '.active' else ''}", { attributes: href: "?#{item.filename}" }, item.title ? item.filename
         ]
         dom '.col-xs-9.content', [
+          dom 'h6.pull-right', dom 'a', { attributes: href: "https://github.com/metocean/glossary/blob/gh-pages/#{getfilepath()}" }, 'pull requests welcome & encouraged'
           dom 'h6', 'Definition'
           renderrichtext null, content.text
         ]
