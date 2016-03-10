@@ -1,13 +1,45 @@
 [
   {
+    "title": "Bathymetry",
+    "filename": "bathymetry"
+  },
+  {
+    "title": "Forecast Horizon",
+    "filename": "forecast-horizon"
+  },
+  {
+    "title": "Hindcast",
+    "filename": "hindcast"
+  },
+  {
     "title": "Significant wave height",
     "unit": "hs",
     "description": "Significant wave height is the average of the top third highest waves",
     "filename": "significant-wave-height"
   },
   {
+    "title": "Significant Wave Period",
+    "filename": "significant-wave-period"
+  },
+  {
     "title": "Spectra",
     "description": "Spectra is the distribution of wave energy over frequency",
     "filename": "spectra"
+  },
+  {
+    "title": "Storm Surge",
+    "filename": "storm-surge"
+  },
+  {
+    "title": "Swell",
+    "filename": "swell"
+  },
+  {
+    "title": "Synoptic Chart",
+    "filename": "synoptic-chart"
+  },
+  {
+    "title": "Tropical Cyclone",
+    "filename": "tropical-cyclone"
   }
 ]
