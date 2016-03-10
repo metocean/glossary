@@ -12,7 +12,7 @@
     "filename": "hindcast"
   },
   {
-    "title": "Significant wave height",
+    "title": "Significant Wave Height",
     "unit": "hs",
     "description": "Significant wave height is the average of the top third highest waves",
     "filename": "significant-wave-height"
