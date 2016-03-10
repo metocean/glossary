@@ -1,8 +1,8 @@
-title: Significant wave height
+title: Significant Wave Height
 unit: hs
 description: Significant wave height is the average of the top third highest waves
 
-# Significant wave height
+# Significant Wave Height
 
 - One
 - Two
