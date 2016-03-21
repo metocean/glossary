@@ -50,7 +50,7 @@ katex = require 'katex'
 kramed = require 'kramed'
 renderrichtext = widget
   render: (state, params) ->
-    dom 'div.definition'
+    dom '.definition'
   afterMount: (el, state, params) ->
     el.innerHTML = kramed params
     equations = document.querySelectorAll 'script[type^=math]'
@@ -69,16 +69,15 @@ router = component
   render: (state, params, hub) ->
     content = parse state.content
     dom '#root.container', [
-      dom 'h4.pull-right', dom 'a', { attributes: href: 'https://github.com/metocean/glossary' }, 'GitHub'
+      dom '.secret', dom 'a', { attributes: href: "https://github.com/metocean/glossary/edit/gh-pages/#{getfilepath()}" }, ' '
       dom 'h4', dom 'a', { attributes: href: './' }, 'MetOcean Glossary'
       dom '.row', [
         dom '.col-xs-3.toc', [
-          dom 'h6', 'Table of contents'
+          dom 'h6', 'Terms'
           dom '.list-group', state.catalog.map (item) ->
             dom "a.list-group-item#{if getfilename() is item.filename then '.active' else ''}", { attributes: href: "?#{item.filename}" }, item.title ? item.filename
         ]
         dom '.col-xs-9.content', [
-          dom 'h6.pull-right', dom 'a', { attributes: href: "https://github.com/metocean/glossary/edit/gh-pages/#{getfilepath()}" }, 'pull requests welcome & encouraged'
           dom 'h6', 'Definition'
           renderrichtext null, content.text
         ]

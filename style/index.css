@@ -10,6 +10,11 @@
   border: 1px solid #ddd;
   padding: 0 20px 50px 20px;
 }
-.pull {
-  text-align: right;
+.secret {
+  float: right;
+}
+.secret a {
+  display: block;
+  width: 32px;
+  height: 32px;
 }
