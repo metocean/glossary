@@ -7,4 +7,4 @@ A sea state can be thought of as the combination of many different wave componen
 
 The wave spectrum is usually expressed as $$E(f,\theta)$$, with units $$m^2s/\theta$$.  From this quantity, a number of spectra parameters can be derived, such as [significant wave height](significant-wave-height), [peak period](peak-period) and [mean wave  direction](mean-wave-direction). These derived quantities summarise aspects of the sea state in terms of single numbers and are the values provided in metocean forecasts.
 
-Most wave models calculate the quantity $$E(f,\theta)$$ at each grid point for each time, thereby providing a complete description of the evolving sea state throughout the model domain.
+Most [wave models](wave-models) calculate the quantity $$E(f,\theta)$$ at each grid point for each time, thereby providing a complete description of the evolving sea state throughout the model domain.
