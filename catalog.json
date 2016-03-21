@@ -14,17 +14,8 @@
   {
     "title": "Significant Wave Height",
     "unit": "hs",
-    "description": "Significant wave height is the average of the top third highest waves",
+    "description": "Significant wave height is the average of the top one-third highest waves",
     "filename": "significant-wave-height"
-  },
-  {
-    "title": "Significant Wave Period",
-    "filename": "significant-wave-period"
-  },
-  {
-    "title": "Spectra",
-    "description": "Spectra is the distribution of wave energy over frequency",
-    "filename": "spectra"
   },
   {
     "title": "Storm Surge",
@@ -41,5 +32,11 @@
   {
     "title": "Tropical Cyclone",
     "filename": "tropical-cyclone"
+  },
+  {
+    "title": "Wave spectrum",
+    "units": "m^2s/degree",
+    "description": "The wave spectrum quantifies the amount of energy in different wave components in the sea state.",
+    "filename": "wave-spectrum"
   }
 ]
