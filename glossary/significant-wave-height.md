@@ -1,8 +1,8 @@
-title: Significant Wave Height
+title: Significant wave height
 unit: hs
 description: Significant wave height is the average of the top one-third highest waves
 
-# Significant Wave Height
+# Significant wave height
 
 Significant wave height, $$H_s$$ is defined in one of two ways:
 1. The average height of the largest one-third waves in a zero-crossing analysis
