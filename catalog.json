@@ -1,5 +1,11 @@
 [
   {
+    "title": "Mean wave direction",
+    "units": "Degrees from",
+    "description": "The average or representative direction waves are coming from",
+    "filename": "mean-wave-direction"
+  },
+  {
     "title": "Peak period",
     "units": "s",
     "description": "The period of waves with most energy in a sea state or wave partition",
@@ -18,7 +24,7 @@
     "filename": "sea-state"
   },
   {
-    "title": "Significant Wave Height",
+    "title": "Significant wave height",
     "unit": "hs",
     "description": "Significant wave height is the average of the top one-third highest waves",
     "filename": "significant-wave-height"
@@ -36,7 +42,9 @@
     "filename": "spectral-partition"
   },
   {
-    "title": "Storm Surge",
+    "title": "Storm surge",
+    "units": "m",
+    "description": "Change of water level caused by meteorogical phenomena",
     "filename": "storm-surge"
   },
   {
