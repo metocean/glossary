@@ -1,5 +1,10 @@
 [
   {
+    "title": "Dew point temperature",
+    "description": "The temperature at which dew forms",
+    "filename": "dew-point-temperature"
+  },
+  {
     "title": "Mean wave direction",
     "units": "Degrees from",
     "description": "The average or representative direction waves are coming from",
