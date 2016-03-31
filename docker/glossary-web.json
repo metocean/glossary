@@ -1,0 +1,6 @@
+{
+  "service": {
+    "name": "glossary-web",
+    "port": 8080
+  }
+}

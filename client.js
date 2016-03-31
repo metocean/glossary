@@ -81,16 +81,21 @@ renderrichtext = widget({
     return dom('.definition');
   },
   afterMount: function(el, state, params) {
-    var eq, equation, equations, i, len, results;
+    var eq, equation, equations, i, j, len, len1, results, table, tables;
     el.innerHTML = kramed(params);
     equations = document.querySelectorAll('script[type^=math]');
-    results = [];
     for (i = 0, len = equations.length; i < len; i++) {
       equation = equations[i];
       eq = document.createElement('span');
       equation.parentNode.insertBefore(eq, equation);
       katex.render(equation.innerHTML, eq);
-      results.push(equation.parentNode.removeChild(equation));
+      equation.parentNode.removeChild(equation);
+    }
+    tables = document.querySelectorAll('table:not(.table)');
+    results = [];
+    for (j = 0, len1 = tables.length; j < len1; j++) {
+      table = tables[j];
+      results.push(table.className += ' table');
     }
     return results;
   },

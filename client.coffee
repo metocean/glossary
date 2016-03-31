@@ -59,6 +59,9 @@ renderrichtext = widget
       equation.parentNode.insertBefore eq, equation
       katex.render equation.innerHTML, eq
       equation.parentNode.removeChild equation
+    tables = document.querySelectorAll 'table:not(.table)'
+    for table in tables
+      table.className += ' table'
   onUpdate: (el, state, params) ->
     el.innerHTML = kramed params
 
