@@ -23,6 +23,12 @@
     "filename": "forecast-horizon"
   },
   {
+    "title": "Maximum wave height",
+    "units": "Meters",
+    "description": "Estimated maximum wave height",
+    "filename": "maximum-wave-height"
+  },
+  {
     "title": "Mean wave direction",
     "units": "Degrees from",
     "description": "The average or representative direction waves are coming from",
