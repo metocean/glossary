@@ -23,6 +23,10 @@
     "filename": "forecast-horizon"
   },
   {
+    "title": "Forecast sites",
+    "filename": "forecast-sites"
+  },
+  {
     "title": "Maximum wave height",
     "units": "Meters",
     "description": "Estimated maximum wave height",
@@ -41,10 +45,22 @@
     "filename": "mean-wind-velocity"
   },
   {
+    "title": "Model forecast charts",
+    "units": "None",
+    "description": "Model forecast parameters from the GFS based atmospheric and oceanographic models",
+    "filename": "model-forecast-charts"
+  },
+  {
     "title": "Peak period",
     "units": "s",
     "description": "The period of waves with most energy in a sea state or wave partition",
     "filename": "peak-period"
+  },
+  {
+    "title": "Satellite cloud image",
+    "units": "Brightness or Kelvin",
+    "desc": "Mosaiced infrared and visible cloud top imagery from geostationary satellites.",
+    "filename": "satellite-cloud-image"
   },
   {
     "title": "Sea",
