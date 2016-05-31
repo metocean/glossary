@@ -46,7 +46,7 @@
   },
   {
     "title": "Model forecast charts",
-    "units": "None",
+    "units": "various",
     "description": "Model forecast parameters from the GFS based atmospheric and oceanographic models",
     "filename": "model-forecast-charts"
   },
