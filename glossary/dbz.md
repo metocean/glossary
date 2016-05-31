@@ -1,6 +1,6 @@
 title: dBZ
 units: decibel relative to Z
-desc: Radar reflectivity
+description: Radar reflectivity
 
 # Decibel relative to Z
 
