@@ -1,6 +1,6 @@
 title: Satellite cloud image
 units: Brightness or Kelvin
-desc: Mosaiced infrared and visible cloud top imagery from geostationary satellites.
+description: Mosaiced infrared and visible cloud top imagery from geostationary satellites.
 
 # Satellite cloud images
 The satellite imagery overlays are a composite mosaic created from 5 geostationary satellites:
