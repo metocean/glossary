@@ -7,7 +7,7 @@ The map overlays show raw forecast model parameters. The overlays are a merged s
 
 The standard layers that can be selected are:
 1. [Precipitation](?precipitation-rate) and [MSLP](?mean-sea-level-pressure)
-2. [Wind 10 m above surface](?mean-wind-speed)
+2. [Wind 10 m above surface](?mean-wind-velocity)
 3. [Wave height](?significant-wave-height)
 4. [Peak wave period](?peak-wave-period)
 5. [Air temperature](?air-temperature)
