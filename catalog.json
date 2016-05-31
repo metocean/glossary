@@ -6,9 +6,15 @@
     "filename": "air-temperature"
   },
   {
+    "title": "Current velocity",
+    "units": "knots or m/s",
+    "description": "Current velocity at a reference level",
+    "filename": "current-velocity"
+  },
+  {
     "title": "dBZ",
     "units": "decibel relative to Z",
-    "desc": "Radar reflectivity",
+    "description": "Radar reflectivity",
     "filename": "dbz"
   },
   {
@@ -59,7 +65,7 @@
   {
     "title": "Satellite cloud image",
     "units": "Brightness or Kelvin",
-    "desc": "Mosaiced infrared and visible cloud top imagery from geostationary satellites.",
+    "description": "Mosaiced infrared and visible cloud top imagery from geostationary satellites.",
     "filename": "satellite-cloud-image"
   },
   {
@@ -73,6 +79,12 @@
     "units": "None",
     "description": "The complete state of waves",
     "filename": "sea-state"
+  },
+  {
+    "title": "Sea surface temperature",
+    "units": "centigrade",
+    "description": "Temperature of the surface layer of the ocean",
+    "filename": "sea-surface-temperature"
   },
   {
     "title": "Significant wave height",
@@ -103,6 +115,12 @@
     "units": "None",
     "description": "Part of the sea state that has been remotely generated",
     "filename": "swell"
+  },
+  {
+    "title": "Visibility",
+    "units": "km",
+    "description": "Horizontal visibility",
+    "filename": "visibility"
   },
   {
     "title": "Wave spectrum",
