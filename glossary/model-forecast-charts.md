@@ -6,7 +6,7 @@ description: Model forecast parameters from the GFS based atmospheric and oceano
 The map overlays show raw forecast model parameters. The overlays are a merged set of model grids from the MetOcean Solutions atmospheric and oceanographic model suite. Higher resolution grids will appear by default where they are available on zooming in.
 
 The standard layers that can be selected are:
-1. Precipitation and MSLP
+1. [Precipitation](precipitation-rate) and [MSLP](mean-sea-level-pressure)
 2. [Wind 10 m above surface](mean-wind-speed)
 3. [Wave height](significant-wave-height)
 4. [Peak wave period](peak-wave-period)
