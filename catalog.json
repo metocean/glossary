@@ -117,6 +117,12 @@
     "filename": "swell"
   },
   {
+    "title": "Thunderstorm risk",
+    "units": "none",
+    "description": "Risk of thunderstorm activity based on atmospheric stability",
+    "filename": "thunderstorm-risk"
+  },
+  {
     "title": "Visibility",
     "units": "km",
     "description": "Horizontal visibility",
