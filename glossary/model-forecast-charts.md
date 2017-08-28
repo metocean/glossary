@@ -18,4 +18,4 @@ The standard layers that can be selected are:
 
 The images shown on the map correspond to the time selected in the map time control, as displayed at the top centre of the map.
 
-All overlays are currently based on the modelling stack driven by the NOAA Global Forecast System (GFS). This include the GFS data itself, wave models forced by GFS winds and current models forced by GFS.
+All overlays are currently based on the modelling stack driven by the NOAA Global Forecast System (GFS). This include the GFS data itself, wave models forced by GFS winds, and current models forced by GFS.
