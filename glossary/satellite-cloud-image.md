@@ -3,7 +3,7 @@ units: Brightness or Kelvin
 description: Mosaiced infrared and visible cloud top imagery from geostationary satellites.
 
 # Satellite cloud images
-The satellite imagery overlays are a composite mosaic created from 5 geostationary satellites:
+The satellite imagery overlays are composite mosaics created from 5 geostationary satellites:
 1. GEOS-13
 2. GOES-15
 3. Meteosat-7
