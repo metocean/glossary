@@ -20,9 +20,9 @@ $$ \frac{mm}{hour} = (\frac{10^{(dBZ/10)}}{200})^{5/8} $$
 | 30  | 1.7   | 0.10   | Light to moderate       |
 | 35  | 5.6   | 0.22   | Moderate rain           |
 | 40  | 11.53 | 0.45   | Moderate rain           |
-| 45  | 23.7  | 0.92   | Moderate to heavy       |
-| 50  | 48.6  | 1.90   | Heavy                   |
-| 55  | 100   | 4      | Very heavy / small hail |
+| 45  | 23.7  | 0.92   | Moderate to heavy rain  |
+| 50  | 48.6  | 1.90   | Heavy rain              |
+| 55  | 100   | 4      | Very heavy rain / small hail |
 | 60  | 205   | 8      | Extreme / moderate hail |
 | 65  | 421   | 16.6   | Extreme / large hail    |
 
