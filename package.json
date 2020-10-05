@@ -34,7 +34,7 @@
     "odoql-exe": "1.6.2",
     "odoql-store": "0.1.0",
     "serve": "1.4.0",
-    "superagent": "1.7.2"
+    "superagent": "6.1.0"
   },
   "devDependencies": {
     "browserify": "13.0.0",
