@@ -18,4 +18,4 @@ The direction from which a wave approaches (degrees clockwise from True North).
 Check the definition of [mean wave direction](mean-wave-direction).
 
 ![wave-noaa](https://github.com/metocean/glossary/blob/gh-pages/glossary/images/wave-noaa.jpg)<p>
-[Image: NOAA] (https://oceanservice.noaa.gov/education/tutorial_currents/media/supp_cur03a.html)
+Image: [NOAA](https://oceanservice.noaa.gov/education/tutorial_currents/media/supp_cur03a.html)
