@@ -32,6 +32,10 @@
     "title": "Forecast sites",
     "filename": "forecast-sites"
   },
+    {
+    "title": "Long wave",
+    "filename": "long-wave"
+  },
   {
     "title": "Maximum wave height",
     "units": "Meters",
@@ -122,28 +126,24 @@
     "description": "Risk of thunderstorm activity based on atmospheric stability",
     "filename": "thunderstorm-risk"
   },
+    {
+    "title": "Tide",
+    "filename": "tide"
+  },
   {
     "title": "Visibility",
     "units": "km",
     "description": "Horizontal visibility",
     "filename": "visibility"
   },
+      {
+    "title": "Wave",
+    "filename": "wave"
+  },
   {
     "title": "Wave spectrum",
     "units": "m^2s/degree",
     "description": "The wave spectrum quantifies the amount of energy in different wave components in the sea state.",
     "filename": "wave-spectrum"
-  },
-  {
-    "title": "Tide",
-    "filename": "tide"
-  },
-  {
-    "title": "Long wave",
-    "filename": "long-wave"
-  },
-    {
-    "title": "Wave",
-    "filename": "wave"
   }
 ]
