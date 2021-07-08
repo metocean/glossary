@@ -15,4 +15,6 @@ Check the definition of [significant wave height](significant-wave-height).
 **Wave direction**
 The direction from which a wave approaches (degrees clockwise from True North). 
 
-Check the definition of [mean wave direction](mean-wave-direction). 
+Check the definition of [mean wave direction](mean-wave-direction).
+
+![wave-noaa](https://octodex.github.com/images/minion.png)
