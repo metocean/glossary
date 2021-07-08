@@ -136,14 +136,10 @@
   },
   {
     "title": "Tide",
-    "units": "none",
-    "description": "none",
     "filename": "tide"
   },
   {
     "title": "Long wave",
-    "units": "none",
-    "description": "none",
     "filename": "long-wave
   }
 ]
