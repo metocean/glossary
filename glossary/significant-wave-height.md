@@ -4,7 +4,7 @@ description: Significant wave height is the average of the top one-third highest
 
 # Significant wave height
 
-The significant wave height (Hs) is the average height of the highest one-third (33%) of all waves measured which is equivalent to the estimate that would be made by a visual observer at sea. This is measured because larger waves are usually more significant, may cause more damage or difficulty than smaller waves.  
+The significant wave height ($$H_s$$) is the average height of the highest one-third (33%) of all waves measured which is equivalent to the estimate that would be made by a visual observer at sea. This is measured because larger waves are usually more significant, may cause more damage or difficulty than smaller waves.  
 
 It is commonly used as a measure of the height of ocean waves, also referred as Seas in the Marine Forecast. The original definition resulted from work by the oceanographer Walter Munk during World War II. 
 
