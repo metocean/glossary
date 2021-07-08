@@ -133,5 +133,11 @@
     "units": "m^2s/degree",
     "description": "The wave spectrum quantifies the amount of energy in different wave components in the sea state.",
     "filename": "wave-spectrum"
+  },
+  {
+    "title": "Tide,
+    "units": "none",
+    "description": "none",
+    "filename": "tide"
   }
 ]
