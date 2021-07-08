@@ -10,7 +10,7 @@ Check the definition of [peak period](peak-period).
 **Wave height** 
 Wave height (H), is the difference in surface elevation between the wave crest and the previous wave trough. 
 
-Check the definition of [significant wave height](significant-wave-height. 
+Check the definition of [significant wave height](significant-wave-height). 
 
 **Wave direction**
 The direction from which a wave approaches (degrees clockwise from True North). 
