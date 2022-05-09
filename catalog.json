@@ -32,7 +32,7 @@
     "title": "Forecast sites",
     "filename": "forecast-sites"
   },
-    {
+  {
     "title": "Long wave",
     "filename": "long-wave"
   },
@@ -126,7 +126,7 @@
     "description": "Risk of thunderstorm activity based on atmospheric stability",
     "filename": "thunderstorm-risk"
   },
-    {
+  {
     "title": "Tide",
     "filename": "tide"
   },
@@ -136,7 +136,7 @@
     "description": "Horizontal visibility",
     "filename": "visibility"
   },
-      {
+  {
     "title": "Wave",
     "filename": "wave"
   },
