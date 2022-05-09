@@ -67,10 +67,18 @@
     "filename": "peak-period"
   },
   {
+    "title": "ROMS",
+    "filename": "roms"
+  },
+  {
     "title": "Satellite cloud image",
     "units": "Brightness or Kelvin",
     "description": "Mosaiced infrared and visible cloud top imagery from geostationary satellites.",
     "filename": "satellite-cloud-image"
+  },
+  {
+    "title": "SCHISM",
+    "filename": "schism"
   },
   {
     "title": "Sea",
@@ -115,6 +123,10 @@
     "filename": "storm-surge"
   },
   {
+    "title": "SWAN",
+    "filename": "swan"
+  },
+  {
     "title": "Swell",
     "units": "None",
     "description": "Part of the sea state that has been remotely generated",
@@ -145,5 +157,13 @@
     "units": "m^2s/degree",
     "description": "The wave spectrum quantifies the amount of energy in different wave components in the sea state.",
     "filename": "wave-spectrum"
+  },
+  {
+    "title": "WRF",
+    "filename": "wrf"
+  },
+  {
+    "title": "WAVEWATCH III (WW3)",
+    "filename": "ww3"
   }
 ]
